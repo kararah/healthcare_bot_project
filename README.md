@@ -135,3 +135,6 @@ Accuracy depends on the completeness of symptoms entered by the user
 The chatbot does not replace professional medical diagnosis
 
 Rare diseases may not be accurately predicted
+
+
+PS:IF YOU WANT TO CONTRIBUTION GIVE A PING HERE AND FORK AND I WILL PUSH IT ON THE MAIN BRANCH
