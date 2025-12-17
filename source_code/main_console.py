@@ -289,7 +289,7 @@ import os
 if not os.path.exists("logs"):
     os.makedirs("logs")
 
-engine = HealthcareEngine()
+engine = HealthcareEngine("source_code/data")
 
 def log_session(result, user_symptoms, mood):
     """Save each diagnosis session for report/testing section."""

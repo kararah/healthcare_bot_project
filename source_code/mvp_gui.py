@@ -26,7 +26,7 @@ EXAMPLE_SYMPTOMS = "e.g., headache, fever, cough, fatigue"
 class HealthcareChatbot:
     def __init__(self, root):
         self.root = root
-        self.engine = HealthcareEngine()
+        self.engine = HealthcareEngine("source_code/data")
         self.history = []
         self.current_mood = None
         
