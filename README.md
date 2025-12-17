@@ -72,27 +72,18 @@ Programming Language: Python 3.12
 Libraries & Frameworks:
 
 pandas
-
 tkinter
-
 pathlib
-
 logging
-
 json
-
 re (regular expressions)
 
 Development Tools:
-
 Visual Studio Code
-
 Git (version control)
 
 📊 Dataset Description
-
 The system uses structured medical datasets in CSV format, where:
-
 Each row represents a disease case
 
 Each column (except the last) represents a symptom (binary: 0/1)
