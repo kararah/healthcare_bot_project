@@ -1,71 +1,57 @@
-🏥 Healthcare Assistant Chatbot
-📌 Overview
+# 🏥 Healthcare Assistant Chatbot
 
-The Healthcare Assistant Chatbot is a Python-based application designed to provide preliminary health guidance based on user-reported symptoms. The system interacts with users through both a console interface and a graphical user interface (GUI), analyzes symptoms using a structured medical dataset, and suggests possible health conditions along with basic precautions.
+A Python-based Healthcare Assistant Chatbot that provides **preliminary health guidance**
+based on user-reported symptoms using a structured medical dataset.
 
-⚠️ Disclaimer: This system is not a medical diagnosis tool. It is intended for educational purposes only and should not replace professional medical consultation.
+⚠️ **Disclaimer:** This project is for **educational purposes only** and does not replace
+professional medical advice.
 
- Problem Statement:
+
+## ❓ Problem Statement
 
 In many cases, individuals ignore early symptoms of illnesses or lack immediate access to basic medical guidance. This can delay proper treatment and increase health risks. There is a need for an easy-to-use system that can provide initial health insights based on symptoms entered by the user.
 
-🎯 Objectives:
+## 🎯 Objectives:
 
-To develop an interactive chatbot for preliminary health assessment
+- To develop an interactive chatbot for preliminary health assessment
 
-To analyze user-entered symptoms and predict possible medical conditions
+- To analyze user-entered symptoms and predict possible medical conditions
 
-To provide precautionary advice based on predicted conditions
+- To provide precautionary advice based on predicted conditions
 
-To design both console-based and GUI-based user interfaces
+- To design both console-based and GUI-based user interfaces
 
-To build a modular and extensible system for future enhancements
+- To build a modular and extensible system for future enhancements
 
-🧠 System Architecture
+## 🧠 System Architecture
 
 The system consists of the following major components:
 
-User Interface
+### User Interface
+- Console-based chatbot
+- GUI-based chatbot using Tkinter
 
-Console-based chatbot
+### Healthcare Engine
+- Symptom normalization
+- Symptom-to-disease matching
+- Confidence score calculation
+- Severity estimation
+- Precaution recommendation
 
-GUI-based chatbot using Tkinter
+### Dataset
+- Symptom–disease mapping dataset (CSV)
+- Symptom descriptions
+- Symptom severity levels
+- Precaution guidelines
+- Synonym mapping (JSON)
 
-Healthcare Engine
+### Output Layer
+- Diagnosis result
+- Confidence score
+- Matched and missing symptoms
+- Description and precautions
 
-Symptom normalization
-
-Symptom-to-disease matching
-
-Confidence score calculation
-
-Severity estimation
-
-Precaution recommendation
-
-Dataset
-
-Symptom–disease mapping dataset (CSV)
-
-Symptom descriptions
-
-Symptom severity levels
-
-Precaution guidelines
-
-Synonym mapping (JSON)
-
-Output Layer
-
-Diagnosis result
-
-Confidence score
-
-Matched and missing symptoms
-
-Description and precautions
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Programming Language: Python 3.12
 
@@ -82,7 +68,7 @@ Development Tools:
 Visual Studio Code
 Git (version control)
 
-📊 Dataset Description
+## 📊 Dataset Description
 The system uses structured medical datasets in CSV format, where:
 Each row represents a disease case
 
@@ -100,7 +86,7 @@ symptom_severity.csv – severity levels of symptoms
 
 synonyms.json – mapping of symptom synonyms
 
-⚙️ How the System Works
+## ⚙️ How the System Works
 
 The user enters symptoms (comma-separated)
 
@@ -116,28 +102,36 @@ Description and precautions are displayed to the user
 
 If confidence is low, the system safely reports “Unknown Condition”
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 
-🔹 Console Version
-
+### 1️⃣ Console Version
+```bash
 python source_code/main_console.py
-
-🔹 GUI Version
-
 python source_code/mvp_gui.py
+
 
 
 Make sure the data folder exists inside source_code and contains all required CSV and JSON files.
 
-⚠️ Limitations
+## ⚠️ Limitations
+- The system depends on predefined datasets
+- It does not learn dynamically from new inputs
+- Accuracy depends on the number and quality of symptoms provided
+- Rare or complex conditions may not be detected
 
-The system relies on predefined datasets and does not learn dynamically
+## 🚀 Future Enhancements
+- Integration of machine learning models
+- Natural Language Processing (NLP) for free-text symptom input
+- Web-based deployment using Flask or Django
+- Mobile application support
+- Real-time doctor consultation integration
 
-Accuracy depends on the completeness of symptoms entered by the user
 
-The chatbot does not replace professional medical diagnosis
+## 👤 Author
+- **Kara Rah**  
+Project – Healthcare Assistant Chatbot
 
-Rare diseases may not be accurately predicted
 
-
-PS:IF YOU WANT TO CONTRIBUTION GIVE A PING HERE AND FORK AND I WILL PUSH IT ON THE MAIN BRANCH
+## 🤝 Contributions
+Contributions are welcome. If you wish to contribute, please fork the repository
+and submit a pull request.
