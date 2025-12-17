@@ -1,0 +1,6 @@
+{
+  "fever": ["fever", "high temperature", "hot body"],
+  "cough": ["cough", "coughing"],
+  "cold": ["cold", "runny nose", "blocked nose"],
+  "fatigue": ["tired", "fatigue", "weakness"]
+}
