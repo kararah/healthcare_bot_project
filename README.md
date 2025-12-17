@@ -117,10 +117,13 @@ Description and precautions are displayed to the user
 If confidence is low, the system safely reports “Unknown Condition”
 
 ▶️ How to Run the Project
+
 🔹 Console Version
+
 python source_code/main_console.py
 
 🔹 GUI Version
+
 python source_code/mvp_gui.py
 
 
